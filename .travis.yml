@@ -1,0 +1,11 @@
+language: generic
+
+script:
+  - echo "Tests are not defined yet. Add your test command here."
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: main
